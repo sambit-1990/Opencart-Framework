@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="OTS.Opencart.Utilities.Listeners"/>
+	</listeners>
+  <test thread-count="5" name="Test">
+	   <parameter name="browser" value="chrome"/>
+    <classes>
+       <class name="OTS.Opencart.TestCases.account_Registration_With_mandatory_Fields_TS_001_TC_RF_001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
